@@ -1,0 +1,109 @@
+.signup__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+hr {
+  width: 80%;
+}
+label {
+  float: left;
+}
+.f__pass {
+  color: green;
+  float: right;
+}
+.input {
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: #4cc446;
+}
+.s__input {
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: #4cc446;
+}
+input[type="radio"] {
+  display: none;
+}
+.gender {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+}
+.g1 {
+  flex: 1;
+  width: 50%;
+  font-size: 20px;
+  padding-top: 3px;
+  height: 35px;
+  border: 1px solid #4cc446;
+  color: white;
+  background-color: #4cc446;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.g2 {
+  flex: 1;
+  width: 50%;
+  height: 35px;
+  font-size: 20px;
+  padding-top: 3px;
+  border: 1px solid #4cc446;
+  color: #4cc446;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+.g1: checked {
+  background-color: green;
+  color: white;
+  border-color: green;
+  cursor: pointer;
+}
+#male {
+  color: green;
+  background-color: white;
+  border: 1px solid white;
+}
+#male:checked {
+  color: white;
+  background-color: green;
+  border: 1px solid green;
+}
+.signup__btn {
+  width: 100%;
+  font-size: 22px;
+  padding: 7px;
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: #4cc446;
+  color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  color: #4cc446;
+  filter: invert(0.8);
+}

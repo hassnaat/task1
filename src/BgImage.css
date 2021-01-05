@@ -1,0 +1,22 @@
+.box {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  left: -5px;
+  filter: brightness(50%);
+}
+.text {
+  color: white;
+  z-index: 1;
+}

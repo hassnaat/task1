@@ -1,0 +1,13 @@
+.wrapper {
+  background-color: #4cc446;
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.nav__bar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
